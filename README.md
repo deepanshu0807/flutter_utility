@@ -4,79 +4,79 @@ Flutter package for all framework supported platforms to use basic utilities ins
 
 ## Features
 
-This includes utils related to:
-    - Containers
-    - Spacing
-    - Text style
+This includes utils related to:\
+    - Containers\
+    - Spacing\
+    - Text style\
     - Other useful constants
 
-
+\
 Example for axis alignments -
 
-Instead of using MainAxisAlignment.Center , you can simply use "mainC".
-Similarily,
-    mainE - for End
-    mainSB - for SpaceBetween
-    mainSE - for SpaceEvenly
-    mainSA - for SpaceAround
-    crossS - for Start
-    crossC - for Center
+Instead of using MainAxisAlignment.Center , you can simply use "mainC".\
+Similarily,\
+    mainE - for End\
+    mainSB - for SpaceBetween\
+    mainSE - for SpaceEvenly\
+    mainSA - for SpaceAround\
+    crossS - for Start\
+    crossC - for Center\
     crossE - for End
 
-
+\
 Example for shape - 
 
-Instead of writing 
-    RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))
-you can use
+Instead of writing\
+    RoundedRectangleBorder(borderRadius: BorderRadius.circular(20))\
+you can use\
     "shape20"
 
-
+\
 Example for border radius - 
 
-Instead of writing 
-    BorderRadius.circular(20)
-you can use
+Instead of writing\
+    BorderRadius.circular(20)\
+you can use\
     "borderR20"
 
-
+\
 Example for padding - 
 
-Instead of writing 
-    EdgeInsets.all(10)
-you can use
+Instead of writing\
+    EdgeInsets.all(10)\
+you can use\
     "padding10"
 
-
+\
 Example for spacing - 
 
-Instead of writing 
+Instead of writing\ 
     SizedBox(
         height: 15.0
-    )
-you can use
+    )\
+you can use\
     "verticalSpaceMedium15"
 
-
+\
 Example for text style - 
 
-Instead of writing 
+Instead of writing \
     TextStyle(
         fontSize: 10,
         color: Colors.black,
-    )
-you can use
-    "text10"
+    )\
+you can use\
+    "text10"\
     or text10.copyWith(color: Colors.green) //For different colors
 
-
+\
 Useful for responsive projects -
 
-To get current screen's width or height, 
-    use screenHeight(context)  //pass build context
+To get current screen's width or height,\ 
+    use screenHeight(context)  //pass build context\
     or screenWidth(context)
 
-
+\
 Check Example repository for proper usages
 
 
